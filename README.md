@@ -1,73 +1,73 @@
-# Marp用タイトル画像ボイラープレート
 
-このリポジトリは、Marpを使用してブログ用のタイトル画像スライドを作成するためのボイラープレートです。以下の手順に従って、簡単にタイトル画像を生成することができます。
+# Title Image Boilerplate for Marp
 
-生成するタイトル画像は1280x680のサイズを想定しています。必要に応じて`title_image.css`の中身に手を加えてみてください。
+This repository provides a boilerplate for creating title image slides for blog posts using Marp. Follow the steps below to easily generate a title image.
 
-## タイトル画像の作例
+The target output image size is 1280x680. You can customize `title_image.css` if adjustments are necessary.
 
-### 入力画像
+## Sample Title Image
 
-<img src="./img/アクリル絵の具で塗装する.png" width="200px" />
+### Input Image
 
-### MARP（index.mdの一部分）
+<img src="./img/paint_with_acrylic.png" width="200px" />
+
+### MARP (Part of index.md)
 
 ```
 # <!-- class: normal -->
-正月飾りにアクリル絵の具で塗装する
+Painting New Year Decorations with Acrylic Paint
 
-![bg fit 100%](img/アクリル絵の具で塗装する.png)
+![bg fit 100%](img/paint_with_acrylic.png)
 ```
 
-### 出力画像
+### Output Image
 
 <img src="./img/title.png" width="300px" />
 
+# Usage
 
-# 使い方
-
-## 必要なもの
+## Requirements
 
 - Node.js
 - Marp CLI
 
-## セットアップ
+## Setup
 
-1. Node.jsをインストールします。
-2. Marp CLIをグローバルにインストールします。
+1. Install Node.js.
+2. Install Marp CLI globally.
 
    ```bash
    npm install -g @marp-team/marp-cli
    ```
 
-3. このリポジトリをクローンします。
+3. Clone this repository.
 
    ```bash
    git clone https://github.com/motohasystem/marp_boilerplate_titleimage
    cd marp_boilerplate_titleimage
    ```
 
-## スライドの作成
+## Creating Slides
 
-1. `index.md` ファイルを編集して、スライドの内容を記述します。Markdown形式でスライドを作成できます。
+1. Edit the `index.md` file to add the slide content. You can create slides in Markdown format.
 
-2. `make.bat` を実行して、スライドを画像として生成します。
+2. Run `make.bat` to generate the slides as an image.
 
    ```bash
    make.bat
    ```
 
-   これにより、`index.png` という名前の画像ファイルが生成されます。
+   This will generate an image file named `index.png`.
 
-## カスタムテーマの使用
+## Using Custom Themes
 
-- `themes` フォルダ内にカスタムCSSテーマが含まれています。`make.bat` 内で使用するテーマを指定することができます。
+- A custom CSS theme is included in the `themes` folder. You can specify the theme used in `make.bat`.
 
-  例: `themes/title_image.css` を使用する場合は、`make.bat` 内の `--theme` オプションを変更します。
+  Example: To use `themes/title_image.css`, modify the `--theme` option in `make.bat`.
 
-## 注意事項
+## Notes
 
-- `make.bat`はWindows用のバッチファイルであることにご注意ください。
-- スライドのデザインをカスタマイズするには、`themes` フォルダ内のCSSファイルを編集してください。
+- Note that `make.bat` is a batch file for Windows.
+- To customize slide design, edit the CSS files in the `themes` folder.
 
-このボイラープレートを使用して、素晴らしいスライドを作成してください！
+Enjoy creating fantastic slides with this boilerplate!

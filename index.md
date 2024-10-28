@@ -12,25 +12,25 @@ headingDivider: 1
 # <!-- class: normal -->
 正月飾りにアクリル絵の具で塗装する
 
-![bg fit 100%](img/アクリル絵の具で塗装する.png)
+![bg fit 100%](./img/paint_with_acrylic.png)
 
 
 # <!-- class: white -->
 正月飾りにアクリル絵の具で塗装する
 
-![bg fit 100%](img/アクリル絵の具で塗装する.png)
+![bg fit 100%](./img/paint_with_acrylic.png)
 
 
 # <!-- class: black -->
 正月飾りにアクリル絵の具で塗装する
 
-![bg fit 100%](img/アクリル絵の具で塗装する.png)
+![bg fit 100%](./img/paint_with_acrylic.png)
 
 
 # <!-- class: kintone -->
 正月飾りにアクリル絵の具で塗装する
 
-![bg fit 100%](img/アクリル絵の具で塗装する.png)
+![bg fit 100%](./img/paint_with_acrylic.png)
 
 
 
