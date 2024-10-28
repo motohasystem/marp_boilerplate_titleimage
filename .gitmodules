@@ -1,0 +1,4 @@
+[submodule "themes"]
+	path = themes
+	url = https://github.com/motohasystem/marp_themes.git
+	branch = title_image
