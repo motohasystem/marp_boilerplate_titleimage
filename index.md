@@ -10,27 +10,27 @@ headingDivider: 1
 <!-- class - white / black / kintone / normal  -->
 
 # <!-- class: normal -->
-正月飾りにアクリル絵の具で塗装する
+※AI画像にMarpでテロップを追加
 
-![bg fit 100%](./img/paint_with_acrylic.png)
+![bg fit 100%](./img/marp_titleimage.webp)
 
 
 # <!-- class: white -->
-正月飾りにアクリル絵の具で塗装する
+※AI画像にMarpでテロップを追加
 
-![bg fit 100%](./img/paint_with_acrylic.png)
+![bg fit 100%](./img/marp_titleimage.webp)
 
 
 # <!-- class: black -->
-正月飾りにアクリル絵の具で塗装する
+※AI画像にMarpでテロップを追加
 
-![bg fit 100%](./img/paint_with_acrylic.png)
+![bg fit 100%](./img/marp_titleimage.webp)
 
 
 # <!-- class: kintone -->
-正月飾りにアクリル絵の具で塗装する
+※AI画像にMarpでテロップを追加
 
-![bg fit 100%](./img/paint_with_acrylic.png)
+![bg fit 100%](./img/marp_titleimage.webp)
 
 
 
